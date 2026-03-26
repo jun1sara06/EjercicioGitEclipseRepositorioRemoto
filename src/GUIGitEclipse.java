@@ -39,7 +39,7 @@ public class GUIGitEclipse extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		
-		JButton btnMaster = new JButton("New button");
+		JButton btnMaster = new JButton("Hola master");
 		btnMaster.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(null, "Hola desde el master.");
