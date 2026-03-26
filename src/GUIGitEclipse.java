@@ -52,7 +52,7 @@ public class GUIGitEclipse extends JFrame {
 		JButton LissetButton = new JButton("LissetButton");
 		LissetButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(null, "Hola desde lisset botón.");
+				JOptionPane.showMessageDialog(null, "Hola desde lisset boton :).");
 			}
 		});
 		LissetButton.setBounds(149, 106, 135, 23);
