@@ -41,7 +41,7 @@ public class GUIGitEclipse extends JFrame {
 		
 //<<<<<<< HEAD
 //=======
-		JButton btnMaster = new JButton("New button");
+		JButton btnMaster = new JButton("Master 1");
 //<<<<<<< HEAD
 		btnMaster.setBounds(172, 10, 89, 23);
 //>>>>>>> refs/remotes/origin/Rama_Lisset
@@ -63,7 +63,7 @@ public class GUIGitEclipse extends JFrame {
 				JOptionPane.showMessageDialog(null, "Hola desde lisset boton :).");
 			}
 		});
-		LissetButton.setBounds(149, 106, 135, 23);
+		LissetButton.setBounds(317, 99, 135, 23);
 		contentPane.add(LissetButton);
 //=======
 		JButton btnNewButton = new JButton("Boton Hola");
@@ -74,7 +74,16 @@ public class GUIGitEclipse extends JFrame {
 		});
 		btnNewButton.setBounds(175, 119, 84, 20);
 		contentPane.add(btnNewButton);
+		
+		JButton btnMaster2 = new JButton("Master 2");
+		btnMaster2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Este botón es el segundo botón del master.");	}
+		});
+		btnMaster2.setBounds(29, 77, 89, 23);
+		contentPane.add(btnMaster2);
 //>>>>>>> refs/remotes/origin/RamaCarol
-
+		
+		
 	}
 }
