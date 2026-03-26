@@ -34,19 +34,29 @@ public class GUIGitEclipse extends JFrame {
 	 */
 	public GUIGitEclipse() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 450, 300);
+		setBounds(100, 100, 750, 522);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		
 		JButton btnMaster = new JButton("New button");
+		btnMaster.setBounds(175, 10, 85, 21);
 		btnMaster.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(null, "Hola desde el master.");
 			}
 		});
+		contentPane.setLayout(null);
 		contentPane.add(btnMaster);
+		
+		JButton btnNewButton = new JButton("Boton Hola");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Hola Carol");
+			}
+		});
+		btnNewButton.setBounds(175, 119, 84, 20);
+		contentPane.add(btnNewButton);
 
 	}
-
 }
