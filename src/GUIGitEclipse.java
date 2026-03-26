@@ -39,14 +39,27 @@ public class GUIGitEclipse extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		
-		JButton btnMaster = new JButton("Hola master");
+//<<<<<<< HEAD
+//=======
+		JButton btnMaster = new JButton("New button");
+		btnMaster.setBounds(172, 10, 89, 23);
+//>>>>>>> refs/remotes/origin/Rama_Lisset
 		btnMaster.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(null, "Hola desde el master.");
 			}
 		});
+		contentPane.setLayout(null);
 		contentPane.add(btnMaster);
+		
+		JButton LissetButton = new JButton("LissetButton");
+		LissetButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Hola desde lisset boton :).");
+			}
+		});
+		LissetButton.setBounds(149, 106, 135, 23);
+		contentPane.add(LissetButton);
 
 	}
-
 }
