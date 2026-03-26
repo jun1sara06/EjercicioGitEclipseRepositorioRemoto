@@ -42,12 +42,12 @@ public class GUIGitEclipse extends JFrame {
 //<<<<<<< HEAD
 //=======
 		JButton btnMaster = new JButton("New button");
-<<<<<<< HEAD
+//<<<<<<< HEAD
 		btnMaster.setBounds(172, 10, 89, 23);
 //>>>>>>> refs/remotes/origin/Rama_Lisset
-=======
+//=======
 		btnMaster.setBounds(175, 10, 85, 21);
->>>>>>> refs/remotes/origin/RamaCarol
+
 		btnMaster.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(null, "Hola desde el master.");
@@ -56,7 +56,7 @@ public class GUIGitEclipse extends JFrame {
 		contentPane.setLayout(null);
 		contentPane.add(btnMaster);
 		
-<<<<<<< HEAD
+//<<<<<<< HEAD
 		JButton LissetButton = new JButton("LissetButton");
 		LissetButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -65,7 +65,7 @@ public class GUIGitEclipse extends JFrame {
 		});
 		LissetButton.setBounds(149, 106, 135, 23);
 		contentPane.add(LissetButton);
-=======
+//=======
 		JButton btnNewButton = new JButton("Boton Hola");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -74,7 +74,7 @@ public class GUIGitEclipse extends JFrame {
 		});
 		btnNewButton.setBounds(175, 119, 84, 20);
 		contentPane.add(btnNewButton);
->>>>>>> refs/remotes/origin/RamaCarol
+//>>>>>>> refs/remotes/origin/RamaCarol
 
 	}
 }
