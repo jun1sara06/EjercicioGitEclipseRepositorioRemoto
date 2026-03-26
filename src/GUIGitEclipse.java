@@ -82,6 +82,15 @@ public class GUIGitEclipse extends JFrame {
 		});
 		btnMaster2.setBounds(29, 77, 89, 23);
 		contentPane.add(btnMaster2);
+		
+		JButton btnAlgo = new JButton("Algo");
+		btnAlgo.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Este botón no hace nada.");
+			}
+		});
+		btnAlgo.setBounds(340, 36, 89, 23);
+		contentPane.add(btnAlgo);
 //>>>>>>> refs/remotes/origin/RamaCarol
 		
 		
