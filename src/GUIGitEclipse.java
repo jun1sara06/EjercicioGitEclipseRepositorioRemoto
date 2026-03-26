@@ -40,13 +40,23 @@ public class GUIGitEclipse extends JFrame {
 		setContentPane(contentPane);
 		
 		JButton btnMaster = new JButton("New button");
+		btnMaster.setBounds(172, 10, 89, 23);
 		btnMaster.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(null, "Hola desde el master.");
 			}
 		});
+		contentPane.setLayout(null);
 		contentPane.add(btnMaster);
+		
+		JButton LissetButton = new JButton("LissetButton");
+		LissetButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Hola desde lisset botón.");
+			}
+		});
+		LissetButton.setBounds(149, 106, 135, 23);
+		contentPane.add(LissetButton);
 
 	}
-
 }
