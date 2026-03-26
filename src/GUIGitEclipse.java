@@ -52,7 +52,7 @@ public class GUIGitEclipse extends JFrame {
 		JButton btnNewButton = new JButton("Boton Hola");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(null, "Hola Carol");
+				JOptionPane.showMessageDialog(null, "Hola desde el Boton Carol");
 			}
 		});
 		btnNewButton.setBounds(175, 119, 84, 20);
